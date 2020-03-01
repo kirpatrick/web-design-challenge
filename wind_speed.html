@@ -46,50 +46,59 @@
 
     </nav>
     <div class="row">
-        <div class="cardmx-auto container bg-dark mb-3" role="alert">
+        <div class="col col-sm-12 col-md-6">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title" style="font-size:4vw;">Comparison: Latitude vs. X</h5>
+                    <div class="image"></div>
+                    <h5 class="card-title" style="font-size:4vw;">Wind Speed</h5>
                     <hr>
-                    <h4 style="font-size:2vw;">Click any plot to get an in-depth analysis.</h4>
+                    <div class="box">
+                        <img id="max-temp" src="Resources\assets\images\Fig4.png" alt="City Latitude vs. Max Temp">
+                    </div>
+                    <p style="font-size:2vw;">Observation: While there appears to be low correlation between windspeed
+                        and lattitude, there are a few outliers they may be interesting studies.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-sm-12 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size:4vw;">Visualizations</h5>
+                    <hr>
                     <div class="row">
                         <div class="box col-sm-3 col-md-6">
                             <div class="box">
-                                <h5 class="card-title text-center" style="font-size:3vw;">vs. Max Temperature</h5>
                                 <article>
                                     <a target="_blank" href="max_temperature.html">
-                                    <img id="max-temp" src="Resources\assets\images\Fig1.png"
-                                    alt="City Latitude vs. Max Temp"></a>
+                                        <img id="max-temp" src="Resources\assets\images\Fig1.png"
+                                            alt="City Latitude vs. Max Temp"></a>
                                 </article>
                             </div>
                         </div>
                         <div class="box col-sm-3 col-md-6">
                             <div class="box">
-                                <h5 class="card-title text-center" style="font-size:3vw;">vs. Humidity</h5>
                                 <article>
                                     <a target="_blank" href="humidity.html">
-                                    <img id="max-humidity" src="Resources\assets\images\Fig2.png"
-                                    alt="City Latitude vs. Humidity"></a>
+                                        <img id="max-humidity" src="Resources\assets\images\Fig2.png"
+                                            alt="City Latitude vs. Humidity"></a>
                                 </article>
                             </div>
                         </div>
                         <div class="box col-sm-3 col-md-6">
                             <div class="box">
-                                <h5 class="card-title text-center" style="font-size:3vw;">vs. Cloudiness</h5>
                                 <article>
                                     <a target="_blank" href="cloudiness.html">
-                                    <img id="max-clouds" src="Resources\assets\images\Fig3.png"
-                                    alt="City Latitude vs. Cloudiness"></a>
+                                        <img id="max-clouds" src="Resources\assets\images\Fig3.png"
+                                            alt="City Latitude vs. Cloudiness"></a>
                                 </article>
                             </div>
                         </div>
                         <div class="box col-sm-3 col-md-6">
                             <div class="box">
-                                <h5 class="card-title text-center" style="font-size:3vw;">vs. Wind Speed</h5>
                                 <article>
                                     <a target="_blank" href="wind_speed.html">
-                                    <img id="max-wind" src="Resources\assets\images\Fig4.png"
-                                    alt="City Latitude vs. Wind Speed"></a>
+                                        <img id="max-wind" src="Resources\assets\images\Fig4.png"
+                                            alt="City Latitude vs. Wind Speed"></a>
                                 </article>
                             </div>
                         </div>
@@ -105,9 +114,6 @@
         </div>
         <!-- Footer -->
     </div>
-
-
-
 </body>
 
 </html>
